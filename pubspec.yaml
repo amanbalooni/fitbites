@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  font_awesome_flutter: ^9.2.0
   flutter:
     sdk: flutter
 
@@ -46,6 +47,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  fluentui_icons: ^1.0.0
+  carousel_slider: ^4.0.0
+  dots_indicator: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
