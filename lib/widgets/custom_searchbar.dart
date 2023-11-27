@@ -26,7 +26,7 @@ class CustomSearch extends StatelessWidget {
             borderRadius: BorderRadius.circular(25.0),
           ),
           filled: true, // Fill the background
-          fillColor: Colors.transparent, // Background color when filled
+          fillColor: Colors.white, // Background color when filled
           contentPadding: const EdgeInsets.symmetric(
               vertical: 12.0, horizontal: 16.0), // Padding
         )
