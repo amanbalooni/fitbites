@@ -12,7 +12,6 @@ class CustomCarouselWidget extends StatelessWidget {
       children: [
         // Initialize the CarouselSlider widget here
         CarouselSlider(
-
           options: CarouselOptions(
             // Customize options here
             height: 150,

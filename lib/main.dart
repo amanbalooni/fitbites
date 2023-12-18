@@ -1,5 +1,5 @@
 import 'package:fitbites/screens/bottomnavigatiobar/bottom_navigationbar.dart';
-import 'package:fitbites/screens/main-screens/home_screen.dart';
+import 'package:fitbites/screens/main-screens/home_page/home_screen.dart';
 import 'package:fitbites/screens/password_screens/confirmation_screen.dart';
 import 'package:fitbites/screens/password_screens/confirmpassword_screen.dart';
 import 'package:fitbites/screens/password_screens/forgetpassword_screen.dart';
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BottomNavigationWidget(),
+      home: const WelcomeScreen(),
     );
   }
 }

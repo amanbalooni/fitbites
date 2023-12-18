@@ -42,7 +42,8 @@ class WelcomeScreen extends StatelessWidget {
                     const SizedBox(
                       height: 20,
                     ),
-                    const CustomLoginButton(),
+                    const CustomLoginButton(
+                    ),
                     TextButton(
                         onPressed: () {
                           Navigator.push(

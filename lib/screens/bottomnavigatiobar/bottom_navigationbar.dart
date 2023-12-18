@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
-import '../main-screens/home_screen.dart';
+import '../main-screens/home_page/home_screen.dart';
 import '../main-screens/profile_screen.dart';
 import '../main-screens/shoppingcart_screen.dart';
 import '../main-screens/wishlist_screen.dart';
