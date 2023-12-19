@@ -2,18 +2,21 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomLoginButton extends StatelessWidget {
-  const CustomLoginButton({super.key});
-
+  const CustomLoginButton({super.key, this.onTap});
+  final VoidCallback? onTap;
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 100,
-      height: 50,
-      decoration: BoxDecoration(
-        color: const Color(0xffDF2100),
-        borderRadius: BorderRadius.circular(25),
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        width: 100,
+        height: 50,
+        decoration: BoxDecoration(
+          color: const Color(0xffDF2100),
+          borderRadius: BorderRadius.circular(25),
+        ),
+        child: const Center(child: Text('Login', style: TextStyle(color: Color(0xffffffff)),)),
       ),
-      child: const Center(child: Text('Login', style: TextStyle(color: Color(0xffffffff)),)),
     );
   }
 }

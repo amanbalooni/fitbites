@@ -1,10 +1,14 @@
+import 'package:fitbites/screens/password_screens/confirmation_screen.dart';
 import 'package:fitbites/screens/signup_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../main.dart';
 import '../widgets/custom_button.dart';
 import '../widgets/custom_scaffold.dart';
 import '../widgets/custom_textfield.dart';
+import 'bottomnavigatiobar/bottom_navigationbar.dart';
+import 'main-screens/home_page/home_screen.dart';
 import 'password_screens/forgetpassword_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -42,7 +46,14 @@ class WelcomeScreen extends StatelessWidget {
                     const SizedBox(
                       height: 20,
                     ),
-                    const CustomLoginButton(
+                    CustomLoginButton(
+                      onTap: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const BottomNavigationWidget()),
+                        );
+                      },
                     ),
                     TextButton(
                         onPressed: () {

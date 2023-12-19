@@ -1,14 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
-import '../../../widgets/custom_card.dart';
 import '../../../widgets/custom_carousel.dart';
-import '../../../widgets/custom_gallery/custom_gallery.dart';
 import '../../../widgets/custom_gallery/image_custom_widget.dart';
 import '../../../widgets/custom_product_gallery/custom_image_card_gallery.dart';
 import '../../../widgets/custom_searchbar.dart';
 import '../../../widgets/custom_text_divider.dart';
-import '../../../widgets/restaurant_card.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key,});
@@ -98,7 +95,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 )),
               ],
             ),
-
         ]));
   }
 }
