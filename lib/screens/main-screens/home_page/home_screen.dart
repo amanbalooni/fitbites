@@ -40,6 +40,9 @@ class _HomeScreenState extends State<HomeScreen> {
               decoration: BoxDecoration(
                 color: const Color(0xffDF2100),
                 borderRadius: BorderRadius.circular(40),
+                  image: DecorationImage(
+                      image: AssetImage('assets/images/profile-pic.webp'),
+                      fit: BoxFit.cover),
               ),
             )
           ],

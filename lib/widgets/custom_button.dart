@@ -50,3 +50,32 @@ class CustomPasswordButton extends StatelessWidget {
   }
 }
 
+
+class AddToCartButton extends StatelessWidget {
+  const AddToCartButton({super.key, this.text, this.width, this.height, this.color, this.borderRadius, this.onTap});
+  final String? text;
+  final double? width;
+  final double? height;
+  final Color? color;
+  final double? borderRadius;
+  final VoidCallback? onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        width: width!,
+        height: height!,
+        decoration: BoxDecoration(
+          color: color!,
+          borderRadius: BorderRadius.circular(borderRadius!),
+        ),
+        child: Center(
+          child: Text(text!, style: const TextStyle(fontSize: 15, color: Colors.white),
+          ),
+        ),
+      ),
+    );
+  }
+}

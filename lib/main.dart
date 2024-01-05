@@ -5,6 +5,7 @@ import 'package:fitbites/screens/password_screens/confirmpassword_screen.dart';
 import 'package:fitbites/screens/password_screens/forgetpassword_screen.dart';
 import 'package:fitbites/screens/signup_screen.dart';
 import 'package:fitbites/screens/welcome_screen.dart';
+import 'package:fitbites/theme/colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       title: 'Fitbites',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: ThemeColors.redColor),
         useMaterial3: true,
       ),
       home: const WelcomeScreen(),

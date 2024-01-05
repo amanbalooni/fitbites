@@ -20,7 +20,7 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
   List pages = [
     const HomeScreen(),
     const WishListScreen(),
-    const ShoppingCartScreen(),
+    ShoppingCartScreen(),
     const ProfileScreen(),
   ];
   int currentIndex = 0;
