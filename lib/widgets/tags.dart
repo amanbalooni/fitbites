@@ -22,6 +22,7 @@ class CustomTagWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: const EdgeInsets.only(left: 16.0),
       width: width!,
       height: height!,
       decoration: BoxDecoration(

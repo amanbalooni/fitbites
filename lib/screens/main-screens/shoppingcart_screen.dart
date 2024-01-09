@@ -19,9 +19,10 @@ class ShoppingCartScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: Padding(
-        padding: EdgeInsets.only(top: 30, left: 16, right: 16),
+        padding: EdgeInsets.only(top: 10, left: 16, right: 16),
         child: Column(
           children: [
+
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [

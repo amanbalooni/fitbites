@@ -97,7 +97,7 @@ class ImageCardGallery extends StatelessWidget {
                             child: CustomTagWidget(
                               icon: FluentSystemIcons.ic_fluent_location_filled,
                               text: 'Sector 62',
-                              width: 100,
+                              width: 110,
                               height: 30,
                               borderRadius: 20,
                               color: Colors.black.withOpacity(0.5),

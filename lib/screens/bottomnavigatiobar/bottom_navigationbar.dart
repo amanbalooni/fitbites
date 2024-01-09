@@ -19,7 +19,7 @@ class BottomNavigationWidget extends StatefulWidget {
 class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
   List pages = [
     const HomeScreen(),
-    const WishListScreen(),
+    WishListScreen(),
     ShoppingCartScreen(),
     const ProfileScreen(),
   ];

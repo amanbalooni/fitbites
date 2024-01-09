@@ -12,7 +12,7 @@ import '../../../widgets/custom_quantity_widget.dart';
 class ProductDetailPage extends StatelessWidget {
   final Product product;
 
-  ProductDetailPage({required this.product});
+  const ProductDetailPage({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {
