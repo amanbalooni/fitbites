@@ -49,7 +49,7 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
         items: const [
           BottomNavigationBarItem(label: "Home", icon: Icon(FluentSystemIcons.ic_fluent_home_filled),),
           BottomNavigationBarItem(label: "Wish", icon: Icon(FluentSystemIcons.ic_fluent_heart_filled,)),
-          BottomNavigationBarItem(label: "Cart", icon: Icon(Icons.notifications,)),
+          BottomNavigationBarItem(label: "Cart", icon: Icon(Icons.shopping_cart_rounded,)),
           BottomNavigationBarItem(label: "Profile", icon: Icon(FluentSystemIcons.ic_fluent_person_filled)),
         ],
       ),
